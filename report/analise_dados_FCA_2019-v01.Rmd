@@ -88,7 +88,11 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 # Resultados
 
 ```{r}
-print(tab1, showAllLevels = TRUE)
+source("scripts/descritiva.R", encoding = 'UTF-8')
+```
+
+```{r}
+pander(print(tab1, showAllLevels = TRUE, printToggle = FALSE))
 ```
 
 <!-- # Exceções e Desvios do teste -->
