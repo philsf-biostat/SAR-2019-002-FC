@@ -92,7 +92,7 @@ source("scripts/descritiva.R", encoding = 'UTF-8')
 ```
 
 ```{r}
-pander(print(tab1, showAllLevels = TRUE, printToggle = FALSE))
+pander(tab1 )
 ```
 
 Table: **Tabela 1** - Características dos participantes do estudo.
