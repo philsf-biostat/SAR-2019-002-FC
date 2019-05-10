@@ -12,7 +12,7 @@ dados$Fototipo <- factor(dados$Fototipo, levels = 1:6)
 dados$Trabalho <- factor(dados$Trabalho, labels = c("Inativo", "Ativo"))
 dados$Evolução <- factor(dados$Evolução, labels = c("<6 meses", ">6 meses"))
 summary(dados$`Tempo de evolução`)
-dados$Classificação <- factor(dados$Classificação, labels = c("Não segmentar", "Ssegmentar", "Universal", "Focal", "Acrofacial"))
+dados$Classificação <- factor(dados$Classificação, labels = c("Não segmentar", "Segmentar", "Universal", "Focal", "Acrofacial"))
 
 dados[`Casos na família` != 1]$`Casos na família` <- "2"
 dados$`Casos na família` <- factor(dados$`Casos na família`, labels = c("N", "S"))

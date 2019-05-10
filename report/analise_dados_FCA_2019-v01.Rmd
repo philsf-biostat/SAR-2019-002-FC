@@ -87,6 +87,16 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
+```{r}
+source("scripts/descritiva.R", encoding = 'UTF-8')
+```
+
+```{r}
+pander(tab1, split.table = Inf)
+```
+
+Table: **Tabela 1** - Características dos participantes do estudo.
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
