@@ -87,6 +87,10 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
+```{r}
+print(tab1, showAllLevels = TRUE)
+```
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
