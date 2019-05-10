@@ -106,6 +106,8 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
 |  **Escore DLQI - Máx 30 (mean (SD))**   |                 |  5.27 (5.89)  |
 | **Escore VitiQoL - Máx 90 (mean (SD))** |                 | 35.05 (25.37) |
 
+Table: **Tabela 1** - Características dos participantes do estudo.
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões

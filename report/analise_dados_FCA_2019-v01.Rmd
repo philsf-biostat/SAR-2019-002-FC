@@ -95,6 +95,8 @@ source("scripts/descritiva.R", encoding = 'UTF-8')
 pander(print(tab1, showAllLevels = TRUE, printToggle = FALSE))
 ```
 
+Table: **Tabela 1** - Características dos participantes do estudo.
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
