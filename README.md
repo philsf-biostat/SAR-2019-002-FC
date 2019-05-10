@@ -4,13 +4,13 @@ título
 
 ## Análises realizadas
 
-1. xxx ([Planejamento][proj-xxx])
-2. yyy ([Planejamento][proj-yyy])
-3. zzz ([Planejamento][proj-zzz])
+1. Perfil epidemiológico ([Planejamento][proj-desc])
+2. Associações ([Planejamento][proj-assoc])
+<!-- 3. zzz ([Planejamento][proj-zzz]) -->
 
-[proj-xxx]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/xxx
-[proj-yyy]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/yyy
-[proj-zzz]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/zzz
+[proj-desc]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/2
+[proj-assoc]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/3
+<!-- [proj-zzz]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/zzz -->
 
 ## Relatório da análise de dados
 
@@ -31,10 +31,10 @@ título
 <!-- - Download -->
 
 [releases]: https://github.com/philsf-biostat/analise_dados_FCA_2019/releases/
-[milestone-prequal]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/xxx
+[milestone-prequal]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/1
 [reportviz-v01]: report/analise_dados_FCA_2019-v01.md
 [docx-v01]: report/analise_dados_FCA_2019-v01.docx?raw=true
-[v01-project]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/xxx
+[v01-project]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/1
 
 <!-- [milestone-posqual]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/analise_dados_FCA_2019 -->
 <!-- [reportviz-v02]: report/analise_dados_FCA_2019-v02.md -->
