@@ -39,10 +39,10 @@ toc-title: "Sumário"
 # Assinaturas
 
 
-|      Papel      |       Nome       | Função |         Assinatura         |     Data      |
-|:---------------:|:----------------:|:------:|:--------------------------:|:-------------:|
-|   Elaborador    |       Nome       | Função | __________________________ | _____________ |
-| Aprovação final | Felipe Cupertino |        | __________________________ | _____________ |
+|      Papel      |       Nome        |   Função   |         Assinatura         |     Data      |
+|:---------------:|:-----------------:|:----------:|:--------------------------:|:-------------:|
+|   Elaborador    | Felipe Figueiredo | Consultor  | __________________________ | _____________ |
+| Aprovação final | Felipe Cupertino  | Requerente | __________________________ | _____________ |
 
 # Lista de abreviaturas
 

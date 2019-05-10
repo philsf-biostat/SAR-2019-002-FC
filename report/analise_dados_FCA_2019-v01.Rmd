@@ -53,10 +53,10 @@ pander(history, split.cells = 70)
 ```{r, echo=FALSE}
 sig.field <- "__________________________"
 date.field <- "_____________"
-Stat <- c("Elaborador", "Nome", "Função", sig.field, date.field)
+Stat <- c("Elaborador", "Felipe Figueiredo", "Consultor", sig.field, date.field)
 Reviewer <- c("Revisado por", "", "", sig.field, date.field)
 Approver <- c("Verificado por", "", "", sig.field, date.field)
-Final.Approver <- c("Aprovação final", "Felipe Cupertino", "", sig.field, date.field)
+Final.Approver <- c("Aprovação final", "Felipe Cupertino", "Requerente", sig.field, date.field)
 
 sigs <- rbind(
   Stat
