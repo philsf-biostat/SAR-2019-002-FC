@@ -30,19 +30,19 @@ toc-title: "Sumário"
 **Histórico do documento**
 
 
-Versão   Alterações     
--------  ---------------
-01       Versão inicial 
+| Versão |   Alterações   |
+|:------:|:--------------:|
+|   01   | Versão inicial |
 
 ---
 
 # Assinaturas
 
 
-Papel             Nome               Função   Assinatura                   Data          
-----------------  -----------------  -------  ---------------------------  --------------
-Elaborador        Nome               Função   __________________________   _____________ 
-Aprovação final   Felipe Cupertino            __________________________   _____________ 
+|      Papel      |       Nome       | Função |         Assinatura         |     Data      |
+|:---------------:|:----------------:|:------:|:--------------------------:|:-------------:|
+|   Elaborador    |       Nome       | Função | __________________________ | _____________ |
+| Aprovação final | Felipe Cupertino |        | __________________________ | _____________ |
 
 # Lista de abreviaturas
 

@@ -37,12 +37,13 @@ library(philsfmisc)
 **Histórico do documento**
 
 ```{r, echo = FALSE}
+panderOptions('table.style', 'rmarkdown')
 Version <- c("01")
 Changes <- c("Versão inicial")
 history <- cbind(Version, Changes)
 colnames(history) <- c("Versão", "Alterações")
-# pander(history, split.cells = 70)
-kable(history)
+pander(history, split.cells = 70)
+# kable(history)
 ```
 
 ---
@@ -66,8 +67,8 @@ sigs <- rbind(
 rownames(sigs) <- NULL
 colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 
-# pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
-kable(sigs)
+pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
+# kable(sigs)
 ```
 
 # Lista de abreviaturas
