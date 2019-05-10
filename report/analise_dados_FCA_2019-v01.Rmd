@@ -1,6 +1,6 @@
 ---
 title: "Análise Estatística de ..."
-author: '**De:** Felipe Figueiredo **Para:** ___'
+author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
@@ -55,12 +55,12 @@ date.field <- "_____________"
 Stat <- c("Elaborador", "Nome", "Função", sig.field, date.field)
 Reviewer <- c("Revisado por", "", "", sig.field, date.field)
 Approver <- c("Verificado por", "", "", sig.field, date.field)
-Final.Approver <- c("Aprovação final", "", "", sig.field, date.field)
+Final.Approver <- c("Aprovação final", "Felipe Cupertino", "", sig.field, date.field)
 
 sigs <- rbind(
   Stat
-  , Reviewer
-  , Approver
+  # , Reviewer
+  # , Approver
   , Final.Approver
   )
 rownames(sigs) <- NULL
