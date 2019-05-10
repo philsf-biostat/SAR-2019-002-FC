@@ -21,6 +21,7 @@ tab1.escores <- CreateTableOne(data = dados[, .(
   `Escore DLQI - Máx 30`,
   `Escore VitiQoL - Máx 90`)])
 
-tab1.base.df <- print(tab1.base, printToggle = FALSE)
-tab1.escores.df <- print(tab1.escores, nonnormal = TRUE, printToggle = FALSE)
+tab1.base.df <- print(tab1.base, showAllLevels = TRUE, printToggle = FALSE)
+tab1.escores.df <- print(tab1.escores, showAllLevels = TRUE, nonnormal = TRUE, printToggle = FALSE)
+
 tab1 <- rbind(tab1.base.df, tab1.escores.df)
