@@ -20,3 +20,5 @@ dados$`Casos na família` <- factor(dados$`Casos na família`, labels = c("N", "
 dados[Tratamento == "1,2"]$Tratamento <- "3"
 dados$Tratamento <- factor(dados$Tratamento, labels = c("UVB-NB", "Tópico", "UVB-NB + Tópico", "Nenhum"))
 dados$Tratamento <- relevel(dados$Tratamento, "Nenhum")
+
+dados$DLQI <- cut(dados$`Escore DLQI - Máx 30`, breaks = c(-1, 5, 10, 31), right = FALSE, labels = c("Leve", "Moderado", "Grave"), ordered_result = TRUE)
