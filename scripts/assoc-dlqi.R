@@ -15,3 +15,6 @@ ggplot(dados, aes(Fototipo, `Escore DLQI - Máx 30`)) +
   geom_boxplot() +
   geom_jitter(alpha = .4, width = .05, height = .05)
 
+ggplot(dados, aes(Sexo, `Escore DLQI - Máx 30`)) +
+  geom_boxplot() +
+  geom_jitter(alpha = .4, width = .05, height = .05)
