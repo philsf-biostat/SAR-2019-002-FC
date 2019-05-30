@@ -20,9 +20,8 @@ título
 
 [Planejamento][v01-project].
 
-- Visualização online
+- [Visualização online][reportviz-v01]
 - Download
-<!-- - [Visualização online][reportviz-v01] -->
 <!-- - [Download][docx-v01] -->
 
 <!-- **Versão 02 - Defesa** - [Em elaboração][milestone-posqual]. -->
