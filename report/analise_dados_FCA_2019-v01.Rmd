@@ -97,6 +97,24 @@ pander(tab1, split.table = Inf)
 
 Table: **Tabela 1** - Características dos participantes do estudo.
 
+
+## DLQI
+
+```{r}
+pander(
+  print(CreateTableOne(strata = "DLQI", vars = c(
+    "Sexo",
+    "Idade",
+    "Fototipo",
+    "ASC",
+    "Tratamento",
+    "TempoDoenca"
+    ), data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE),
+  split.table = Inf)
+```
+
+Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
