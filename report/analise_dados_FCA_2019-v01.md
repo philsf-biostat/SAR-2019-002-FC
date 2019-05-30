@@ -104,9 +104,39 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
 |                                            |   Acrofacial    |       2 ( 1.5)       |
 |     **Tempo de evolução (mean (SD))**      |                 |    21.41 (15.04)     |
 |  **Escore DLQI - Máx 30 (median [IQR])**   |                 |  3.00 [1.00, 8.00]   |
+|                **DLQI (%)**                |      Leve       |      81 (61.8)       |
+|                                            |    Moderado     |      23 (17.6)       |
+|                                            |      Grave      |      27 (20.6)       |
 | **Escore VitiQoL - Máx 90 (median [IQR])** |                 | 27.00 [15.00, 56.00] |
 
 Table: **Tabela 1** - Características dos participantes do estudo.
+
+
+## DLQI
+
+
+|          &nbsp;          |      level      |         Leve         |       Moderado       |        Grave         |   p   |  test   |
+|:------------------------:|:---------------:|:--------------------:|:--------------------:|:--------------------:|:-----:|:-------:|
+|          **n**           |                 |          81          |          23          |          27          |       |         |
+|       **Sexo (%)**       |        M        |      26 (32.1)       |       3 (13.0)       |       4 (14.8)       | 0.082 |  exact  |
+|                          |        F        |      55 (67.9)       |      20 (87.0)       |      23 (85.2)       |       |         |
+| **Idade (median [IQR])** |                 | 48.00 [36.00, 61.00] | 46.00 [36.50, 55.50] | 54.00 [42.00, 64.50] | 0.248 | nonnorm |
+|     **Fototipo (%)**     |        1        |       0 ( 0.0)       |       0 ( 0.0)       |       0 ( 0.0)       | 0.943 |  exact  |
+|                          |        2        |       6 ( 7.4)       |       2 ( 8.7)       |       1 ( 3.7)       |       |         |
+|                          |        3        |      27 (33.3)       |       6 (26.1)       |       7 (25.9)       |       |         |
+|                          |        4        |      32 (39.5)       |      10 (43.5)       |      14 (51.9)       |       |         |
+|                          |        5        |      13 (16.0)       |       5 (21.7)       |       5 (18.5)       |       |         |
+|                          |        6        |       3 ( 3.7)       |       0 ( 0.0)       |       0 ( 0.0)       |       |         |
+|  **ASC (median [IQR])**  |                 |  0.05 [0.02, 0.10]   |  0.11 [0.05, 0.19]   |  0.15 [0.04, 0.28]   | 0.002 | nonnorm |
+|    **Tratamento (%)**    |     Nenhum      |       9 (11.1)       |       3 (13.0)       |       4 (14.8)       | 0.479 |  exact  |
+|                          |     UVB-NB      |      13 (16.0)       |       8 (34.8)       |       6 (22.2)       |       |         |
+|                          |     Tópico      |      53 (65.4)       |      12 (52.2)       |      16 (59.3)       |       |         |
+|                          | UVB-NB + Tópico |       6 ( 7.4)       |       0 ( 0.0)       |       1 ( 3.7)       |       |         |
+|   **TempoDoenca (%)**    |    < 10 anos    |      22 (32.4)       |       4 (21.1)       |       3 (12.5)       | 0.255 |  exact  |
+|                          |  10 a 20 anos   |      17 (25.0)       |       3 (15.8)       |       7 (29.2)       |       |         |
+|                          |   >= 20 anos    |      29 (42.6)       |      12 (63.2)       |      14 (58.3)       |       |         |
+
+Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 <!-- # Exceções e Desvios do teste -->
 
