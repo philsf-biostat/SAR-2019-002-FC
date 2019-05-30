@@ -19,6 +19,7 @@ tab1.base <- CreateTableOne(data = dados[, .(
 
 tab1.escores <- CreateTableOne(data = dados[, .(
   `Escore DLQI - Máx 30`,
+  DLQI,
   `Escore VitiQoL - Máx 90`)])
 
 tab1.base.df <- print(tab1.base, showAllLevels = TRUE, printToggle = FALSE)

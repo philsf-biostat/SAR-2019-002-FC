@@ -104,6 +104,9 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
 |                                            |   Acrofacial    |       2 ( 1.5)       |
 |     **Tempo de evolução (mean (SD))**      |                 |    21.41 (15.04)     |
 |  **Escore DLQI - Máx 30 (median [IQR])**   |                 |  3.00 [1.00, 8.00]   |
+|                **DLQI (%)**                |      Leve       |      81 (61.8)       |
+|                                            |    Moderado     |      23 (17.6)       |
+|                                            |      Grave      |      27 (20.6)       |
 | **Escore VitiQoL - Máx 90 (median [IQR])** |                 | 27.00 [15.00, 56.00] |
 
 Table: **Tabela 1** - Características dos participantes do estudo.
