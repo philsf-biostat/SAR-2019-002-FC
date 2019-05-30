@@ -20,3 +20,15 @@ ggplot(dados, aes(Sexo, `Escore DLQI - Máx 30`)) +
   geom_jitter(alpha = .4, width = .05, height = .05)
 
 summary(lm(`Escore VitiQoL - Máx 90` ~ `Escore DLQI - Máx 30`, dados))
+
+ggplot(dados, aes(`Escore DLQI - Máx 30`, `Escore VitiQoL - Máx 90`)) +
+  geom_point() +
+  xlim(c(0, 30)) + xlab("DQLI") +
+  ylim(c(0, 90)) + ylab("VitiQoL") +
+  geom_vline(xintercept = c(05, 10), lty = 3) +
+  geom_hline(yintercept = c(5*mult, 10*mult), lty = 2) +
+  geom_smooth(method = "lm")
+
+ggplot(dados, aes(DLQI, `Escore VitiQoL - Máx 90`)) +
+  geom_boxplot() +
+  geom_jitter(alpha = .4, width = .05, height = .05)
