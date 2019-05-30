@@ -32,3 +32,12 @@ ggplot(dados, aes(`Escore DLQI - Máx 30`, `Escore VitiQoL - Máx 90`)) +
 ggplot(dados, aes(DLQI, `Escore VitiQoL - Máx 90`)) +
   geom_boxplot() +
   geom_jitter(alpha = .4, width = .05, height = .05)
+
+print(CreateTableOne(strata = "DLQI", vars = c(
+  "Sexo",
+  "Idade",
+  "Fototipo",
+  "ASC",
+  "Tratamento",
+  "TempoDoenca"
+), data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE)
