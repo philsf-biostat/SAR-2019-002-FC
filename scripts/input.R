@@ -23,7 +23,12 @@ dados$Tratamento <- relevel(dados$Tratamento, "Nenhum")
 
 dados$TempoDoenca <- cut(dados$`Tempo de evolução`, breaks = c(0, 10, 20, Inf), right = FALSE, labels = c("< 10 anos", "10 a 20 anos", ">= 20 anos"), ordered_result = TRUE)
 
-dados$DLQI <- cut(dados$`Escore DLQI - Máx 30`, breaks = c(-1, 5, 10, 31), right = FALSE, labels = c("Leve", "Moderado", "Grave"), ordered_result = TRUE)
+dados$DLQI <- cut(
+  dados$`Escore DLQI - Máx 30`, right = TRUE,
+  breaks = c(-1, 0, 5, 11, 20, 31),
+  labels = c("Sem Efeito", "Leve", "Moderado", "Grave", "Extrem. Grave"),
+  ordered_result = TRUE
+  )
 
 mult <- 4
 dados$VitiQoL <- cut(dados$`Escore VitiQoL - Máx 90`, breaks = c(-1, 5, 10, 31)*mult, right = FALSE, labels = c("Leve", "Moderado", "Grave"), ordered_result = TRUE)
