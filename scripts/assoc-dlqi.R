@@ -1,12 +1,12 @@
 source('scripts/input.R', encoding = 'UTF-8')
 
-library(ggplot2)
+library(ggplot2, quietly = TRUE)
 library(tableone)
 
-print(CreateTableOne(strata = "Fototipo", vars = "Escore DLQI - Máx 30", data = dados[, .(
-  Fototipo,
-  `Escore DLQI - Máx 30`
-)]), nonnormal = TRUE)
+# print(CreateTableOne(strata = "Fototipo", vars = "Escore DLQI - Máx 30", data = dados[, .(
+#   Fototipo,
+#   `Escore DLQI - Máx 30`
+# )]), nonnormal = TRUE)
 
 dlqi.ft.kw <- kruskal.test(dados$`Escore DLQI - Máx 30`, dados$Fototipo)
 # pairwise.wilcox.test(dados$`Escore DLQI - Máx 30`, dados$Fototipo, p.adjust.method = "bonf")
@@ -38,11 +38,17 @@ plot(dados$DLQI, main = "A", xlab = "DLQI", ylim = c(0, 100))
 plot(dados$VitiQoL, main = "B", xlab = "VitiQoL", ylim = c(0, 100))
 dev.off()
 
-print(CreateTableOne(strata = "DLQI", vars = c(
-  "Sexo",
-  "Idade",
-  "Fototipo",
-  "ASC",
-  "Tratamento",
-  "TempoDoenca"
-), data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE)
+## Tabela DLQI - workspace aumentado
+
+tab.dlqi <- print(
+  CreateTableOne(strata = "DLQI", vars = c(
+    "Sexo",
+    "Idade",
+    "Fototipo",
+    "ASC",
+    "Tratamento",
+    "TempoDoenca"
+    ),
+    argsExact = list(workspace = 1e7), # comentar esta linha para testes (computacionalmente cara)
+    data = dados),
+  nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE)
