@@ -16,7 +16,7 @@ library(ggplot2, quietly = TRUE)
 # "TempoDoenca")
 
 vitiqol.kw.sexo <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Sexo)
-vitiqol.kw.idade <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Fototipo)
+vitiqol.kw.idade <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Idade)
 vitiqol.kw.fototipo <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Fototipo)
 vitiqol.kw.asc <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$ASC)
 vitiqol.kw.tratamento <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Tratamento)
