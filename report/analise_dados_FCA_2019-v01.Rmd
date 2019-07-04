@@ -87,7 +87,7 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
-```{r}
+```{r scripts, include=FALSE}
 source("scripts/descritiva.R", encoding = 'UTF-8')
 source("scripts/assoc-dlqi.R", encoding = 'UTF-8')
 ```
