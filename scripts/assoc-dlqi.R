@@ -40,11 +40,15 @@ dev.off()
 
 ## Tabela DLQI - workspace aumentado
 
-# print(CreateTableOne(strata = "DLQI", vars = c(
-#   "Sexo",
-#   "Idade",
-#   "Fototipo",
-#   "ASC",
-#   "Tratamento",
-#   "TempoDoenca"
-# ), argsExact = list(workspace = 1e7), data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE)
+tab.dlqi <- print(
+  CreateTableOne(strata = "DLQI", vars = c(
+    "Sexo",
+    "Idade",
+    "Fototipo",
+    "ASC",
+    "Tratamento",
+    "TempoDoenca"
+    ),
+    argsExact = list(workspace = 1e7), # comentar esta linha para testes (computacionalmente cara)
+    data = dados),
+  nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE)

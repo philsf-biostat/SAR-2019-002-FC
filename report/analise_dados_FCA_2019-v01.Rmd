@@ -89,6 +89,7 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 ```{r}
 source("scripts/descritiva.R", encoding = 'UTF-8')
+source("scripts/assoc-dlqi.R", encoding = 'UTF-8')
 ```
 
 ```{r}
@@ -102,16 +103,7 @@ Table: **Tabela 1** - Características dos participantes do estudo.
 
 ```{r}
 pander(
-  print(CreateTableOne(strata = "DLQI", vars = c(
-    "Sexo",
-    "Idade",
-    "Fototipo",
-    "ASC",
-    "Tratamento",
-    "TempoDoenca"
-    ),
-    argsExact = list(workspace = 1e7), # comentar esta linha para testes (computacionalmente cara)
-    data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE),
+  tab.dlqi,
   split.table = Inf)
 ```
 
