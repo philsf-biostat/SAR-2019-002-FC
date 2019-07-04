@@ -114,6 +114,8 @@ pander(
 
 Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
+## VitiQoL
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
