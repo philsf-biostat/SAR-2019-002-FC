@@ -120,7 +120,6 @@ Table: **Tabela 1** - Características dos participantes do estudo.
 
 Table: **Tabela 2** - Instrumentos utilizados no estudo.
 
-
 ## DLQI
 
 
@@ -146,6 +145,15 @@ Table: **Tabela 2** - Instrumentos utilizados no estudo.
 |                          |   >= 20 anos    |       9 (36.0)       |      23 (46.9)       |      11 (61.1)       |       9 (56.2)       |      3 (100.0)       |       |         |
 
 Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
+
+## VitiQoL
+
+- Sexo: K-W p=0.0031921
+- Idade: Spearman rho=0.0514906, p=0.5591693
+- Fototipo: K-W p=0.636378
+- ASC: Spearman rho=0.2212906, p=0.0110825
+- Tratamento: K-W p=0.6858056
+- TempoDoenca: K-W p=0.1663654
 
 <!-- # Exceções e Desvios do teste -->
 
