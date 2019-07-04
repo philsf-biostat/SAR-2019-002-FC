@@ -15,10 +15,12 @@ library(ggplot2, quietly = TRUE)
 # "Tratamento",
 # "TempoDoenca")
 
-
-
-vitiqol.ft.kw <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Fototipo)
-# pairwise.wilcox.test(dados$`Escore VitiQoL - Máx 90`, dados$Fototipo, p.adjust.method = "bonf")
+vitiqol.kw.sexo <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Sexo)
+vitiqol.kw.idade <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Fototipo)
+vitiqol.kw.fototipo <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Fototipo)
+vitiqol.kw.asc <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$ASC)
+vitiqol.kw.tratamento <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Tratamento)
+vitiqol.kw.tempodoenca <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$TempoDoenca)
 
 ggplot(dados, aes(Fototipo, `Escore VitiQoL - Máx 90`)) +
   ylab("Escore VitiQoL") +
