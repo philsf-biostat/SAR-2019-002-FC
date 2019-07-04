@@ -92,12 +92,17 @@ source("scripts/descritiva.R", encoding = 'UTF-8')
 source("scripts/assoc-dlqi.R", encoding = 'UTF-8')
 ```
 
-```{r}
-pander(tab1, split.table = Inf)
+```{r participantes}
+pander(tab1.base.df, split.table = Inf)
 ```
 
 Table: **Tabela 1** - Características dos participantes do estudo.
 
+```{r instrumentos}
+pander(tab1.escores.df, split.table = Inf)
+```
+
+Table: **Tabela 2** - Instrumentos utilizados no estudo.
 
 ## DLQI
 
