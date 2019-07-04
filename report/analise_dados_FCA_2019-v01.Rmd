@@ -90,6 +90,7 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 ```{r scripts, include=FALSE}
 source("scripts/descritiva.R", encoding = 'UTF-8')
 source("scripts/assoc-dlqi.R", encoding = 'UTF-8')
+source("scripts/assoc-vitiqol.R", encoding = 'UTF-8')
 ```
 
 ```{r participantes}
@@ -115,6 +116,13 @@ pander(
 Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 ## VitiQoL
+
+- Sexo: K-W p=`r vitiqol.kw.sexo$p.value`
+- Idade: Spearman rho=`r vitiqol.cor.idade$estimate`, p=`r vitiqol.cor.idade$p.value`
+- Fototipo: K-W p=`r vitiqol.kw.fototipo$p.value`
+- ASC: Spearman rho=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`
+- Tratamento: K-W p=`r vitiqol.kw.tratamento$p.value`
+- TempoDoenca: K-W p=`r vitiqol.kw.tempodoenca$p.value`
 
 <!-- # Exceções e Desvios do teste -->
 
