@@ -109,7 +109,9 @@ pander(
     "ASC",
     "Tratamento",
     "TempoDoenca"
-    ), argsExact = list(workspace = 1e7), data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE),
+    ),
+    argsExact = list(workspace = 1e7), # comentar esta linha para testes (computacionalmente cara)
+    data = dados), nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE),
   split.table = Inf)
 ```
 
