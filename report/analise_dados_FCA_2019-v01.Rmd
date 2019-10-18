@@ -127,7 +127,7 @@ pander(
   split.table = Inf)
 ```
 
-Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
+Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 ## VitiQoL
 
