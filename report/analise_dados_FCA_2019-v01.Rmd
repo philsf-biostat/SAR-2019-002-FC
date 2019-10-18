@@ -91,7 +91,8 @@ Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação $\rho$ de Spearman.
 Foram considerados significativos valores de $p<0.05$.
 
-Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
+Os dados foram organizados em uma tabela Excel.
+Todas as análises estatísticas foram realizadas utilizando-se o software `R` versão `r getRversion()` (http://r-project.org/).
 
 <!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
 
