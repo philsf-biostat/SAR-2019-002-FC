@@ -54,7 +54,18 @@ toc-title: "Sumário"
 
 # Metodologia
 
-Esta análise foi realizada utilizando-se o software `R` versão 3.6.1.
+O perfil típico dos participantes da pesquisa foi descrito de acordo com as categorias e valores mais prevalentes na amostra de estudo.
+As variáveis qualitativas foram descritas usando frequência e proporção (%).
+Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tipo Likert ou quasi-Likert foram descritos usando mediana e intervalo interquartil (em inglês, IQR).
+
+Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
+Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
+Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
+Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
+Foram considerados significativos valores de $p<0.05$.
+
+Os dados foram organizados em uma tabela Excel.
+Todas as análises estatísticas foram realizadas utilizando-se o software `R` versão 3.6.1 (http://r-project.org/).
 
 <!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version 1.3.3). -->
 
