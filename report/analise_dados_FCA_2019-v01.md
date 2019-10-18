@@ -62,6 +62,8 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.6.1.
 
 
 
+## Perfil dos participantes do estudo e instrumentos de coleta
+
 
 |              &nbsp;               |      level      |    Overall    |
 |:---------------------------------:|:---------------:|:-------------:|

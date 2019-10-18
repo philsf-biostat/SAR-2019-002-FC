@@ -93,6 +93,8 @@ source("scripts/assoc-dlqi.R", encoding = 'UTF-8')
 source("scripts/assoc-vitiqol.R", encoding = 'UTF-8')
 ```
 
+## Perfil dos participantes do estudo e instrumentos de coleta
+
 ```{r participantes}
 pander(tab1.base.df, split.table = Inf)
 ```
