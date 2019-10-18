@@ -177,12 +177,16 @@ Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os
 
 ## VitiQoL
 
-- Sexo: K-W p=0.0031921
-- Idade: Spearman rho=0.0514906, p=0.5591693
-- Fototipo: K-W p=0.636378
-- ASC: Spearman rho=0.2212906, p=0.0110825
-- Tratamento: K-W p=0.6858056
-- TempoDoenca: K-W p=0.1663654
+Apenas o sexo foi associado com os escores brutos do
+VitiQoL (K-W p=0.0031921),
+com os homens apresentando escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentando escore mediano (IQR) 33.00 [19.25, 57.00].
+Não foi possível detectar nesta amostra de estudo evidências de associação com
+Fototipo (K-W p=0.636378),
+Tratamento (K-W p=0.6858056)
+ou o tempo de doença (K-W p=0.1663654).
+
+A idade teve correlação de Spearman significativa (*rho*=0.0514906, p=0.5591693), porém o mesmo não ocorreu com a
+ASC (*rho*=0.2212906, p=0.0110825).
 
 <!-- # Exceções e Desvios do teste -->
 
