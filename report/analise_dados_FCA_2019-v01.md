@@ -1,7 +1,7 @@
 ---
 title: "Análise Estatística de ..."
 author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
-date: '**Data: ** dd/mm/aaaa'
+date: '**Data: ** 18/10/2019'
 output:
   html_document:
     fig_caption: yes
