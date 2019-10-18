@@ -54,7 +54,7 @@ toc-title: "Sumário"
 
 # Metodologia
 
-Esta análise foi realizada utilizando-se o software `R` versão 3.6.0.
+Esta análise foi realizada utilizando-se o software `R` versão 3.6.1.
 
 <!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version 1.3.3). -->
 
