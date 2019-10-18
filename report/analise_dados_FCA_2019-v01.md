@@ -185,8 +185,10 @@ Fototipo (K-W p=0.636378),
 Tratamento (K-W p=0.6858056)
 ou o tempo de doença (K-W p=0.1663654).
 
-A idade teve correlação de Spearman significativa (*rho*=0.0514906, p=0.5591693), porém o mesmo não ocorreu com a
-ASC (*rho*=0.2212906, p=0.0110825).
+A ASC teve correlação de Spearman significativa
+(*rho*=0.2212906, p=0.0110825),
+porém o mesmo não ocorreu com a
+idade (*rho*=0.0514906, p=0.5591693).
 
 <!-- # Exceções e Desvios do teste -->
 
