@@ -134,6 +134,8 @@ Na ausência de um sistema estabelecido de níveis de severidade para o VitiQoL,
 
 Table: **Tabela 2** - Instrumentos utilizados no estudo.
 
+Os escores destes dois instrumentos foram utilizados para avaliar as associações entre o grau observado de Vitiligo e os cofatores de interesse, como veremos nas seções a seguir.
+
 ## DLQI
 
 
