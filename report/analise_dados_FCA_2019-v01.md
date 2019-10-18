@@ -117,6 +117,11 @@ Quase todos os participantes tiveram evolução da enfermidade superior a seis m
 Os fototipos mais prevalentes nesta amostra foram o 4 (43%) e o 3 (31%).
 Por fim, 85% dos participantes apresentaram não segmentar, acumulando a maior proporção neste sistema de classificação.
 
+Os pacientes passaram por mensuração por dois instrumentos com objetivos complementares, o DLQI e o VitiQoL (tabela 2).
+O DLQI possui uma classificação em cinco níveis de severidade, e os escores observados variaram tipicamente de 1 a 8 (intervalo interquartil), com mediana 3.
+De acordo com este sistema, o nível de severidade típico mais prevalente na amostra deste estudo foi o Leve (45%).
+Na ausência de um sistema estabelecido de níveis de severidade para o VitiQoL, seus escores variaram tipicamente de 15 a 56 (intervalo interquartil), com valor mediano 27.
+
 
 |                   &nbsp;                   |     level     |       Overall        |
 |:------------------------------------------:|:-------------:|:--------------------:|
@@ -130,6 +135,8 @@ Por fim, 85% dos participantes apresentaram não segmentar, acumulando a maior p
 | **Escore VitiQoL - Máx 90 (median [IQR])** |               | 27.00 [15.00, 56.00] |
 
 Table: **Tabela 2** - Instrumentos utilizados no estudo.
+
+Os escores destes dois instrumentos foram utilizados para avaliar as associações entre o grau observado de Vitiligo e os cofatores de interesse, como veremos nas seções a seguir.
 
 ## DLQI
 
@@ -155,7 +162,7 @@ Table: **Tabela 2** - Instrumentos utilizados no estudo.
 |                          |  10 a 20 anos   |       6 (24.0)       |      12 (24.5)       |       3 (16.7)       |       6 (37.5)       |      0 (  0.0)       |       |         |
 |                          |   >= 20 anos    |       9 (36.0)       |      23 (46.9)       |      11 (61.1)       |       9 (56.2)       |      3 (100.0)       |       |         |
 
-Table: **Tabela xx** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
+Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 ## VitiQoL
 
