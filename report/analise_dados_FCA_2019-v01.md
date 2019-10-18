@@ -106,6 +106,15 @@ Esta análise foi realizada utilizando-se o software `R` versão 3.6.1.
 
 Table: **Tabela 1** - Características dos participantes do estudo.
 
+As características mais comuns nos 131 participantes do estudo podem ser observadas na Tabela 1.
+A maior parte dos participantes da amostra eram mulheres (75%) e a idade média da amostra foi 48 anos.
+Foram observados dois níveis de escolaridade mais frequentes nesta amostra, onde 25% dos participantes tinham segundo grau completo e 22% possuíam o primeiro grau completo.
+A maior parte das pessoas são casadas (42%), embora tenha sido observada uma proporção semelhante de solteiros (40%).
+Não parece haver diferença nesta amostra entre pessoas laboralmente ativas ou inativas.
+Quase todos os participantes tiveram evolução da enfermidade superior a seis meses (99%) e boa parte já veio para o ambulatório seguindo algum tipo de tratamento, sendo o mais prevalente o tópico (62%).
+Os fototipos mais prevalentes nesta amostra foram o 4 (43%) e o 3 (31%).
+Por fim, 85% dos participantes apresentaram não segmentar, acumulando a maior proporção neste sistema de classificação.
+
 
 |                   &nbsp;                   |     level     |       Overall        |
 |:------------------------------------------:|:-------------:|:--------------------:|
