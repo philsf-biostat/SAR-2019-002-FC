@@ -81,6 +81,10 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Metodologia
 
+O perfil típico dos participantes da pesquisa foi descrito de acordo com as categorias e valores mais prevalentes na amostra de estudo.
+Variáveis quantitativas foram descritas como média (DP), e variáveis qualitativas foram descritas usando frequência e proporção (%).
+Os escores dos instrumentos do tipo Likert ou semi-Likert foram descritos usando mediana e intervalo interquartil.
+
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
 <!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
