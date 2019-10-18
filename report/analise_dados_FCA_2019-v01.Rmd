@@ -157,13 +157,6 @@ ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
 A idade teve correlação de Spearman significativa (*rho*=`r vitiqol.cor.idade$estimate`, p=`r vitiqol.cor.idade$p.value`), porém o mesmo não ocorreu com a
 ASC (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`).
 
-- Sexo: K-W p=`r vitiqol.kw.sexo$p.value`
-- Idade: Spearman rho=`r vitiqol.cor.idade$estimate`, p=`r vitiqol.cor.idade$p.value`
-- Fototipo: K-W p=`r vitiqol.kw.fototipo$p.value`
-- ASC: Spearman rho=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`
-- Tratamento: K-W p=`r vitiqol.kw.tratamento$p.value`
-- TempoDoenca: K-W p=`r vitiqol.kw.tempodoenca$p.value`
-
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
