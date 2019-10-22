@@ -94,8 +94,6 @@ Foram considerados significativos valores de $p<0.05$.
 Os dados foram organizados em uma tabela Excel.
 Todas as análises estatísticas foram realizadas utilizando-se o software `R` versão `r getRversion()` (http://r-project.org/).
 
-<!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
-
 # Resultados
 
 ```{r scripts, include=FALSE}
