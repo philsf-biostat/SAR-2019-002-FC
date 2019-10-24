@@ -144,16 +144,18 @@ Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os
 
 ## VitiQoL
 
-Apenas o sexo foi associado com os escores brutos do
+O sexo foi associado com os escores brutos do
 VitiQoL (K-W p=`r vitiqol.kw.sexo$p.value`),
 com os homens apresentando escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentando escore mediano (IQR) 33.00 [19.25, 57.00].
+A atividade laboral também foi significativamente associada ao escore bruto VitiQoL
+(K-W p=`r vitiqol.kw.laboral$p.value`),
+com os laboralmente ativos declarando escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 Não foi possível detectar nesta amostra de estudo evidências de associação com
 Fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
 Tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`)
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
 
 sig
-- Trabalho (K-W p=`r vitiqol.kw.laboral$p.value`),
 
 não sig
 - Escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
