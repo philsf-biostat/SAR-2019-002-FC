@@ -25,7 +25,7 @@ dados$TempoDoenca <- cut(dados$`Tempo de evolução`, breaks = c(0, 10, 20, Inf)
 
 dados$DLQI <- cut(
   dados$`Escore DLQI - Máx 30`, right = TRUE,
-  breaks = c(-1, 0, 5, 11, 20, 31),
+  breaks = c(-1, 1, 5, 11, 20, 30),
   labels = c("Sem Efeito", "Leve", "Moderado", "Grave", "Extrem. Grave"),
   ordered_result = TRUE
   )
