@@ -151,15 +151,11 @@ A atividade laboral também foi significativamente associada ao escore bruto Vit
 (K-W p=`r vitiqol.kw.laboral$p.value`),
 com os laboralmente ativos declarando escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 Não foi possível detectar nesta amostra de estudo evidências de associação com
-Fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
-Tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`)
+fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
+tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`),
+escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
+estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
-
-sig
-
-não sig
-- Escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
-- Estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
 
 A ASC teve correlação de Spearman significativa
 (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`),
