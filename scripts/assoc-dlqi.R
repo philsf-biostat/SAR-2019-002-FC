@@ -44,6 +44,9 @@ tab.dlqi <- print(
   CreateTableOne(strata = "DLQI", vars = c(
     "Sexo",
     "Idade",
+    "Escolaridade",
+    "Estado civil",
+    "Trabalho",
     "Fototipo",
     "ASC",
     "Tratamento",
