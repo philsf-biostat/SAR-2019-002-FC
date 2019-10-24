@@ -152,6 +152,13 @@ Fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
 Tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`)
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
 
+sig
+- Trabalho (K-W p=`r vitiqol.kw.laboral$p.value`),
+
+não sig
+- Escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
+- Estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
+
 A ASC teve correlação de Spearman significativa
 (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`),
 porém o mesmo não ocorreu com a
