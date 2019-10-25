@@ -1,5 +1,5 @@
 ---
-title: "Análise Estatística de ..."
+title: "Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualidade de Vida DLQI e VitiQoL"
 author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
 date: '**Data: ** 25/10/2019'
 output:
