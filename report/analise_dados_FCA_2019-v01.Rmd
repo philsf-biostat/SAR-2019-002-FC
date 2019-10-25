@@ -73,6 +73,10 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Lista de abreviaturas
 
+- DLQI:
+- IQR: Intervalo interquartil
+- VitiQoL:
+
 # Introdução
 
 ## Objetivos
