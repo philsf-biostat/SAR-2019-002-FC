@@ -1,7 +1,7 @@
 ---
 title: "Análise Estatística de ..."
 author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
-date: '**Data: ** 18/10/2019'
+date: '**Data: ** 25/10/2019'
 output:
   html_document:
     fig_caption: yes
@@ -73,11 +73,50 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Lista de abreviaturas
 
+- ASC: Área de superfície corporal
+- DLQI: *Dermatology Life Quality Index*
+- IQR: *Interquartile Range* (Intervalo interquartil)
+- VitiQoL: *Vitiligo Specific Health Related Quality of Life Instrument*
+
 # Introdução
+
+Na área de Dermatologia há diversos instrumentos que buscam avaliar o impacto que pacientes observam em sua Qualidade de Vida, um dos quais é o DLQI.
+Para o vitilogo existe ainda um instrumento específico, o VitiQoL.
+Na literatura especializada foram identificados vários faores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
+
+O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualida de devida), até Efeito Grave.
+O VitiQoL parece ainda não ter um estudo semelhante.
 
 ## Objetivos
 
+Avaliar a associação entre dois instrumentos de qualidade de vida específicos da área de dermatologia e diversos parâmetros clínicos e epidemiológicos relevantes ao vitiligo.
+
 ## Recepção e tratamento dos dados
+
+Foi recebida uma tabela contendo dados coletados de 131 participantes do estudo realizado no ambulatório de dermatologia do Hospital Universitário Clementino Fraga Filho da Universidade Federal do Rio de Janeiro (HUCFF/UFRJ).
+
+Nenhuma transformação foi feita nos dados recebidos antes das análises, mas alguns dados foram reordenados ou categorizados conforme a seguir:
+
+**DLQI**
+
+Os escores brutos do DLQI podem variar de 0 a 30.
+Uma nova variável categórica foi criada com base nos escores brutos de acordo com a categorização validada para este instrumento:
+
+- 0-1: sem efeito;
+- 1-5: efeito leve;
+- 6-11: efeito moderado;
+- 12-20: efeito grave;
+- 21-30: extremamente grave.
+
+Tanto o escore bruto como a categorização do instrumento DLQI foram usados nesta análise.
+
+**Tempo de Evolução da Doença**
+
+O tempo da evolução da doença dos participantes, medido em anos, foi discretizado de acordo com as faixas que parecem mais relevantes aos estudos de vitiligo:
+
+- menor que 10 anos;
+- de 10 a 20 anos;
+- igual ou a superior a 20 anos.
 
 # Metodologia
 
@@ -121,7 +160,7 @@ Por fim, 85% dos participantes apresentaram não segmentar, acumulando a maior p
 
 ## Instrumentos de qualidade de vida em dermatologia
 
-Os pacientes passaram por mensuração por dois instrumentos com objetivos complementares, o DLQI e o VitiQoL (tabela 2).
+Os participantes do estudo passaram por mensuração por dois instrumentos com objetivos complementares, o DLQI e o VitiQoL (tabela 2).
 O DLQI possui uma classificação em cinco níveis de severidade, e os escores observados variaram tipicamente de 1 a 8 (intervalo interquartil), com mediana 3.
 De acordo com este sistema, o nível de severidade típico mais prevalente na amostra deste estudo foi o Leve (45%).
 Na ausência de um sistema estabelecido de níveis de severidade para o VitiQoL, seus escores variaram tipicamente de 15 a 56 (intervalo interquartil), com valor mediano 27.
@@ -178,7 +217,14 @@ A ASC teve correlação de Spearman significativa
 porém o mesmo não ocorreu com a
 idade (*rho*=`r vitiqol.cor.idade$estimate`, p=`r vitiqol.cor.idade$p.value`).
 
-<!-- # Exceções e Desvios do teste -->
+# Exceções da análise e Observações
+
+Testes estatísticos para variáveis qualitativas tipicamente requerem grandes volumes de dados para obter a precisão estatística adequada para detectar efeitos moderados ou sutis em estudos de associação ou intervenção.
+Devido ao pequeno tamanho amostral do estudo (N=131), o poder deste estudo provavelmente não foi suficiente para detectar uma possível associação entre os fatores avaliados, particularmente nos casos de variáveis categóricas com mais que dois níveis, como por exemplo o Fototipo, a Escolaridade, etc.
+Deve-se ser cauteloso, no entanto, ao afirmar que não há efeito.
+A não detecção não elimina automaticamente a existência de um efeito pequeno, relativo ao tamanho do estudo.
+
+Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse clínico como evidências da relevância de se planejar um estudo epidemiológico maior, com um desfecho primário definido especificamente para permitir um cálculo amostral para atingir poder estatístico adequado.
 
 # Conclusões
 
