@@ -230,6 +230,7 @@ Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse cl
 
 Deve-se observar ainda que o efeito da ASC na qualidade de vida pôde ser significativamente detectado com ambos os instrumentos
 Isto pode indicar que um futuro estudo com desfecho primário quantitativo talvez resulte em um tamanho amostral mais viável que um desfecho qualitativo.
+Por outro lado, as duas variáveis qualitativa que possuem apenas duas categorias (sexo e trabalho) puderam ser avaliadas adequadamente neste estudo, atingindo precisão adequada (i.e., sem levantar mensagens de aviso do programa de análise).
 
 # Conclusões
 
