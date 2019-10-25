@@ -16,6 +16,8 @@ dlqi.asc.levene <- car::leveneTest(ASC ~ DLQI, data = dados)
 dlqi.asc.levene.p <- dlqi.asc.levene$`Pr(>F)`[1]
 dlqi.asc.kw <- kruskal.test(dados$ASC, dados$DLQI)
 dlqi.asc.pw <- pairwise.wilcox.test(dados$ASC, dados$DLQI, p.adjust.method = "bonf")
+# mediana/IQR
+tab.dlqi.asc <- print(CreateTableOne(vars = "ASC", strata = "DLQI", dados), nonnormal = TRUE, printToggle = FALSE)
 
 ggplot(dados, aes(Fototipo, `Escore DLQI - Máx 30`)) +
   geom_boxplot() +
