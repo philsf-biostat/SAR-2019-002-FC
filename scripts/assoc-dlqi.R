@@ -21,6 +21,8 @@ ggplot(dados, aes(Sexo, `Escore DLQI - Máx 30`)) +
 
 summary(lm(`Escore VitiQoL - Máx 90` ~ `Escore DLQI - Máx 30`, dados))
 
+dlqi.cor.vtq <- cor.test(dados$`Escore DLQI - Máx 30`, dados$`Escore VitiQoL - Máx 90`, method = "s")
+
 ggplot(dados, aes(`Escore DLQI - Máx 30`, `Escore VitiQoL - Máx 90`)) +
   geom_point() +
   xlim(c(0, 30)) + xlab("DQLI") +
