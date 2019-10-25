@@ -27,7 +27,7 @@ tab.dlqi <- print(
     "Tratamento",
     "TempoDoenca"
     ),
-    argsExact = list(workspace = 1e7), # comentar esta linha para testes (computacionalmente cara)
+    argsExact = list(workspace = 1e6), # comentar esta linha para testes (computacionalmente cara)
     data = dados),
   nonnormal = TRUE, showAllLevels = TRUE, exact = TRUE, printToggle = FALSE)
 
