@@ -26,9 +26,9 @@ vitiqol.kw.laboral <- kruskal.test(dados$`Escore VitiQoL - Máx 90`, dados$Traba
 vitiqol.cor.idade <- cor.test(dados$`Escore VitiQoL - Máx 90`, dados$Idade, method = "sp")
 vitiqol.cor.asc <- cor.test(dados$`Escore VitiQoL - Máx 90`, dados$ASC, method = "sp")
 
-# associação com Sexo e Trabalho - resultados a declarar
-# print(CreateTableOne(vars = "Escore VitiQoL - Máx 90", strata = "Sexo", dados), nonnormal = TRUE)
-# print(CreateTableOne(vars = "Escore VitiQoL - Máx 90", strata = "Trabalho", dados), nonnormal = TRUE)
+# associação com Sexo e Trabalho
+tab.vtq.sexo <- print(CreateTableOne(vars = "Escore VitiQoL - Máx 90", strata = "Sexo", dados), nonnormal = TRUE, printToggle = FALSE)
+tab.vtq.trab <- print(CreateTableOne(vars = "Escore VitiQoL - Máx 90", strata = "Trabalho", dados), nonnormal = TRUE, printToggle = FALSE)
 
 ggplot(dados, aes(Fototipo, `Escore VitiQoL - Máx 90`)) +
   ylab("Escore VitiQoL") +

@@ -220,9 +220,15 @@ escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
 estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
 
-Os homens apresentaram escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentaram escore mediano (IQR) 33.00 [19.25, 57.00].
+Os homens apresentaram escore mediano (IQR)
+`r tab.vtq.sexo[2,1]`
+e as mulheres apresentaram escore mediano (IQR)
+`r tab.vtq.sexo[2,2]`.
 
-Quanto à atividade laboral, os laboralmente ativos declararam escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
+Quanto à atividade laboral, os laboralmente ativos declarando escore mediano (IQR)
+`r tab.vtq.trab[2,2]`
+enquanto os inativos apresentaram escore mediano
+`r tab.vtq.trab[2,1]`.
 
 A ASC foi positivamente correlacionada com os escores do instrumento VitiQoL
 (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`),
