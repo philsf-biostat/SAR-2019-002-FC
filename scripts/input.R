@@ -3,6 +3,26 @@ library(data.table, quietly = TRUE)
 dados <- read_excel("dataset/Assoc fototipos e QV vit 04-11-19 sem info pessoais pacientes.xlsx")
 dados <- data.table(dados)
 
+
+# restrição da tabela -----------------------------------------------------
+
+dados <- dados[, .(
+  Idade,
+  Sexo,
+  `Estado civil`,
+  Escolaridade,
+  Trabalho,
+  Evolução,
+  `Tempo de evolução`,
+  Tratamento,
+  Fototipo,
+  `Casos na família`,
+  ASC,
+  Classificação,
+  `Escore DLQI - Máx 30`,
+  `Escore VitiQoL - Máx 90`
+  )]
+
 # gerenciamento dos dados -------------------------------------------------
 
 dados$Sexo <- factor(dados$Sexo, labels = c("M", "F"))
