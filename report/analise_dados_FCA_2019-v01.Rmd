@@ -196,7 +196,7 @@ tempo de doença.
 Não foi possível avaliar a significância com a escolaridade nem com o fototipo devido à baixa amostragem ao longo dos níveis de escolaridade e fototipos avaliados.
 É possível observar diversas células vazias na tabela, onde esses níveis destas variáveis não estiveram representados na amostra de estudo.
 
-```{r}
+```{r dlqi}
 pander(
   tab.dlqi,
   split.table = Inf)
