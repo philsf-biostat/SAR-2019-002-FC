@@ -224,6 +224,8 @@ Devido ao pequeno tamanho amostral do estudo (N=131), o poder deste estudo prova
 Deve-se ser cauteloso, no entanto, ao afirmar que não há efeito.
 A não detecção não elimina automaticamente a existência de um efeito pequeno, relativo ao tamanho do estudo.
 
+Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse clínico como evidências da relevância de se planejar um estudo epidemiológico maior, com um desfecho primário definido especificamente para permitir um cálculo amostral para atingir poder estatístico adequado.
+
 # Conclusões
 
 
