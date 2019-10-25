@@ -154,6 +154,12 @@ Os escores destes dois instrumentos foram utilizados para avaliar as associaçõ
 
 ## DLQI
 
+O DLQI foi avaliado contra todos os cofatores clinicamente relevantes coletados na amostra de estudo, em sua interpretação discretizada em categorias de escores (tabela 3).
+Este estudo mostra evidências de associação entre o DLQI o sexo, a situação laboral e a ASC.
+Não foi possível detectar associação entre as categorias de escores e a idade, estado civil, fototipo, tratamento ou tempo de doença.
+Não foi possível avaliar a significância com a escolaridade devido à baixa amostragem ao longo dos sete níveis de escolaridade avaliados.
+É possível observar diversas células vazias na tabela, onde esses níveis de escolaridade não foram representados na amostra de estudo.
+
 
 |          &nbsp;          |      level      |      Sem Efeito      |         Leve         |       Moderado       |        Grave         |    Extrem. Grave     |   p   |  test   |
 |:------------------------:|:---------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:-----:|:-------:|
@@ -190,6 +196,11 @@ Os escores destes dois instrumentos foram utilizados para avaliar as associaçõ
 |                          |   >= 20 anos    |      12 (35.3)       |      20 (50.0)       |      11 (61.1)       |       9 (56.2)       |      3 (100.0)       |       |         |
 
 Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
+
+As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas as categorias do DLQI coletadas neste estudo.
+Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
+Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
+Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
 
 ## VitiQoL
 
