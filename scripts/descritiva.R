@@ -25,6 +25,9 @@ tab1.escores <- CreateTableOne(data = dados[, .(
 tab1.base.df <- print(tab1.base, showAllLevels = TRUE, printToggle = FALSE)
 tab1.escores.df <- print(tab1.escores, showAllLevels = TRUE, nonnormal = TRUE, printToggle = FALSE)
 
+
+# protótipos obsoletos ----------------------------------------------------
+
 # ## Tabela 1 completa
 # 
 # tab1 <- rbind(tab1.base.df, tab1.escores.df)
