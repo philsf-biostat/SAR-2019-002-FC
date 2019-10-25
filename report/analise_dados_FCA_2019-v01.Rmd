@@ -79,6 +79,13 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Introdução
 
+Na área de Dermatologia há diversos instrumentos que buscam avaliar o impacto que pacientes observam em sua Qualidade de Vida, um dos quais é o DLQI.
+Para o vitilogo existe ainda um instrumento específico, o VitiQoL.
+Na literatura especializada foram identificados vários faores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
+
+O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualida de devida), até Efeito Grave.
+O VitiQoL parece ainda não ter um estudo semelhante.
+
 ## Objetivos
 
 Avaliar a associação entre dois instrumentos de qualidade de vida específicos da área de dermatologia e diversos parâmetros clínicos e epidemiológicos relevantes ao vitiligo.
