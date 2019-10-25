@@ -77,6 +77,8 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 ## Objetivos
 
+Avaliar a associação entre dois instrumentos de qualidade de vida específicos da área de dermatologia e diversos parâmetros clínicos e epidemiológicos relevantes ao vitiligo.
+
 ## Recepção e tratamento dos dados
 
 # Metodologia
