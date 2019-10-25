@@ -1,5 +1,5 @@
 ---
-title: "Análise Estatística de ..."
+title: "Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualidade de Vida DLQI e VitiQoL"
 author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
 date: '**Data: ** 25/10/2019'
 output:
@@ -54,10 +54,10 @@ toc-title: "Sumário"
 # Introdução
 
 Na área de Dermatologia há diversos instrumentos que buscam avaliar o impacto que pacientes observam em sua Qualidade de Vida, um dos quais é o DLQI.
-Para o vitilogo existe ainda um instrumento específico, o VitiQoL.
-Na literatura especializada foram identificados vários faores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
+Para o vitiligo existe ainda um instrumento específico, o VitiQoL.
+Na literatura especializada foram identificados vários fatores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
 
-O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualida de devida), até Efeito Grave.
+O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualidade de vida), até efeito Extremamente Grave.
 O VitiQoL parece ainda não ter um estudo semelhante.
 
 ## Objetivos
@@ -100,7 +100,7 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
 Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
-Nos casos em que o teste de Kurskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
+Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
 A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
@@ -196,10 +196,20 @@ Os escores destes dois instrumentos foram utilizados para avaliar as associaçõ
 ## DLQI
 
 O DLQI foi avaliado contra todos os cofatores clinicamente relevantes coletados na amostra de estudo, em sua interpretação discretizada em categorias de escores (tabela 3).
-Este estudo mostra evidências de associação entre o DLQI o sexo, a situação laboral e a ASC.
-Não foi possível detectar associação entre as categorias de escores e a idade, estado civil, fototipo, tratamento ou tempo de doença.
-Não foi possível avaliar a significância com a escolaridade devido à baixa amostragem ao longo dos sete níveis de escolaridade avaliados.
-É possível observar diversas células vazias na tabela, onde esses níveis de escolaridade não foram representados na amostra de estudo.
+Este estudo mostra evidências de associação entre o DLQI e
+o sexo,
+a situação laboral
+e
+a ASC.
+Não foi possível detectar associação entre as categorias de escores e
+a idade,
+estado civil,
+tratamento
+ou
+tempo de doença.
+
+Não foi possível avaliar a significância com a escolaridade nem com o fototipo devido à baixa amostragem ao longo dos níveis de escolaridade e fototipos avaliados.
+É possível observar diversas células vazias na tabela, onde esses níveis destas variáveis não estiveram representados na amostra de estudo.
 
 
 |          &nbsp;          |      level      |      Sem Efeito      |         Leve         |       Moderado       |        Grave         |    Extrem. Grave     |   p   |  test   |
@@ -221,7 +231,7 @@ Não foi possível avaliar a significância com a escolaridade devido à baixa a
 |                          |      Viúvo      |       4 ( 9.3)       |       2 ( 4.4)       |       4 (18.2)       |       1 ( 5.6)       |      0 (  0.0)       |       |         |
 |     **Trabalho (%)**     |     Inativo     |      15 (34.9)       |      21 (46.7)       |      16 (72.7)       |      11 (61.1)       |      1 ( 33.3)       | 0.034 |  exact  |
 |                          |      Ativo      |      28 (65.1)       |      24 (53.3)       |       6 (27.3)       |       7 (38.9)       |      2 ( 66.7)       |       |         |
-|     **Fototipo (%)**     |        1        |       0 ( 0.0)       |       0 ( 0.0)       |       0 ( 0.0)       |       0 ( 0.0)       |      0 (  0.0)       | 0.667 |  exact  |
+|     **Fototipo (%)**     |        1        |       0 ( 0.0)       |       0 ( 0.0)       |       0 ( 0.0)       |       0 ( 0.0)       |      0 (  0.0)       |  NA   |  exact  |
 |                          |        2        |       3 ( 7.0)       |       3 ( 6.7)       |       3 (13.6)       |       0 ( 0.0)       |      0 (  0.0)       |       |         |
 |                          |        3        |      18 (41.9)       |      10 (22.2)       |       6 (27.3)       |       6 (33.3)       |      0 (  0.0)       |       |         |
 |                          |        4        |      16 (37.2)       |      19 (42.2)       |      10 (45.5)       |       8 (44.4)       |      3 (100.0)       |       |         |
@@ -239,9 +249,11 @@ Não foi possível avaliar a significância com a escolaridade devido à baixa a
 Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas as categorias do DLQI coletadas neste estudo.
+
 Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
+
 Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=0.010398), foi possível detectar um aumento significativo (pós-teste p=0.0039439, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
 possuíram efeito Grave na qualidade de vida
 (mediana [IQR] = 0.17 [0.08, 0.28])
@@ -255,14 +267,22 @@ O escore bruto VitiQoL foi significativamente associado às duas únicas variáv
 o sexo (M/F) (K-W p=0.0031921)
 e o estado laboral (ativo/inativo) (K-W p=0.0297177),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
-Os homens apresentaram escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentaram escore mediano (IQR) 33.00 [19.25, 57.00].
-Quanto à atividade laboral, os laboralmente ativos declarando escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 Não foi possível detectar nesta amostra de estudo evidências de associação com
 fototipo (K-W p=0.636378),
 tratamento (K-W p=0.6858056),
 escolaridade (K-W p=0.1849204),
 estado civil (K-W p=0.6339946),
 ou o tempo de doença (K-W p=0.1663654).
+
+Os homens apresentaram escore mediano (IQR)
+19.00 [8.00, 35.00]
+e as mulheres apresentaram escore mediano (IQR)
+33.00 [19.25, 57.00].
+
+Quanto à atividade laboral, os laboralmente ativos declarando escore mediano (IQR)
+22.00 [10.50, 54.50]
+enquanto os inativos apresentaram escore mediano
+34.00 [20.75, 56.75].
 
 A ASC foi positivamente correlacionada com os escores do instrumento VitiQoL
 (*rho*=0.2212906, p=0.0110825),
@@ -275,6 +295,7 @@ Testes estatísticos para variáveis qualitativas tipicamente requerem grandes v
 Devido ao pequeno tamanho amostral do estudo (N=131), o poder deste estudo provavelmente não foi suficiente para detectar uma possível associação entre os fatores avaliados, particularmente nos casos de variáveis categóricas com mais que dois níveis, como por exemplo o Fototipo, a Escolaridade, etc.
 Deve-se ser cauteloso, no entanto, ao afirmar que não há efeito.
 A não detecção não elimina automaticamente a existência de um efeito pequeno, relativo ao tamanho do estudo.
+Observe que na redação deste relatório foram utilizadas expressões como "não foi possível detectar associação" em contraste a expressões mais assertivas como "não há associação".
 
 Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse clínico como evidências da relevância de se planejar um estudo epidemiológico maior, com um desfecho primário definido especificamente para permitir um cálculo amostral para atingir poder estatístico adequado.
 
@@ -291,5 +312,9 @@ ASCs maiores induziram um aumento nos escores de impacto grave na qualidade de v
 
 # Referências
 
-# Apêndice
+# Apêndice - Dados utilizados
+
+Os dados utilizados neste relatório não podem ser publicados online por questões de sigilo.
+
+
 

@@ -3,6 +3,27 @@ library(data.table, quietly = TRUE)
 dados <- read_excel("dataset/Assoc fototipos e QV vit 04-11-19 sem info pessoais pacientes.xlsx")
 dados <- data.table(dados)
 
+
+# restrição da tabela -----------------------------------------------------
+
+dados <- dados[, .(
+  `Nº Pesquisa`,
+  Idade,
+  Sexo,
+  `Estado civil`,
+  Escolaridade,
+  Trabalho,
+  Evolução,
+  `Tempo de evolução`,
+  Tratamento,
+  Fototipo,
+  `Casos na família`,
+  ASC,
+  Classificação,
+  `Escore DLQI - Máx 30`,
+  `Escore VitiQoL - Máx 90`
+  )]
+
 # gerenciamento dos dados -------------------------------------------------
 
 dados$Sexo <- factor(dados$Sexo, labels = c("M", "F"))
@@ -11,7 +32,6 @@ dados$Escolaridade <- factor(dados$Escolaridade, levels = 1:7, labels = c("Analf
 dados$Fototipo <- factor(dados$Fototipo, levels = 1:6)
 dados$Trabalho <- factor(dados$Trabalho, labels = c("Inativo", "Ativo"))
 dados$Evolução <- factor(dados$Evolução, labels = c("<6 meses", ">6 meses"))
-summary(dados$`Tempo de evolução`)
 dados$Classificação <- factor(dados$Classificação, labels = c("Não segmentar", "Segmentar", "Universal", "Focal", "Acrofacial"))
 
 dados[`Casos na família` != 1]$`Casos na família` <- "2"
@@ -30,5 +50,7 @@ dados$DLQI <- cut(
   ordered_result = TRUE
   )
 
-mult <- 4
-dados$VitiQoL <- cut(dados$`Escore VitiQoL - Máx 90`, breaks = c(-1, 5, 10, 31)*mult, right = FALSE, labels = c("Leve", "Moderado", "Grave"), ordered_result = TRUE)
+# protótipos obsoletos ----------------------------------------------------
+
+# mult <- 4
+# dados$VitiQoL <- cut(dados$`Escore VitiQoL - Máx 90`, breaks = c(-1, 5, 10, 31)*mult, right = FALSE, labels = c("Leve", "Moderado", "Grave"), ordered_result = TRUE)

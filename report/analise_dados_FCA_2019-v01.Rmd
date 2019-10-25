@@ -1,5 +1,5 @@
 ---
-title: "Análise Estatística de ..."
+title: "Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualidade de Vida DLQI e VitiQoL"
 author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
 date: '**Data: ** 25/10/2019'
 output:
@@ -81,10 +81,10 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 # Introdução
 
 Na área de Dermatologia há diversos instrumentos que buscam avaliar o impacto que pacientes observam em sua Qualidade de Vida, um dos quais é o DLQI.
-Para o vitilogo existe ainda um instrumento específico, o VitiQoL.
-Na literatura especializada foram identificados vários faores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
+Para o vitiligo existe ainda um instrumento específico, o VitiQoL.
+Na literatura especializada foram identificados vários fatores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
 
-O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualida de devida), até Efeito Grave.
+O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualidade de vida), até efeito Extremamente Grave.
 O VitiQoL parece ainda não ter um estudo semelhante.
 
 ## Objetivos
@@ -127,7 +127,7 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
 Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
-Nos casos em que o teste de Kurskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
+Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
 A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
@@ -181,12 +181,22 @@ Os escores destes dois instrumentos foram utilizados para avaliar as associaçõ
 ## DLQI
 
 O DLQI foi avaliado contra todos os cofatores clinicamente relevantes coletados na amostra de estudo, em sua interpretação discretizada em categorias de escores (tabela 3).
-Este estudo mostra evidências de associação entre o DLQI o sexo, a situação laboral e a ASC.
-Não foi possível detectar associação entre as categorias de escores e a idade, estado civil, fototipo, tratamento ou tempo de doença.
-Não foi possível avaliar a significância com a escolaridade devido à baixa amostragem ao longo dos sete níveis de escolaridade avaliados.
-É possível observar diversas células vazias na tabela, onde esses níveis de escolaridade não foram representados na amostra de estudo.
+Este estudo mostra evidências de associação entre o DLQI e
+o sexo,
+a situação laboral
+e
+a ASC.
+Não foi possível detectar associação entre as categorias de escores e
+a idade,
+estado civil,
+tratamento
+ou
+tempo de doença.
 
-```{r}
+Não foi possível avaliar a significância com a escolaridade nem com o fototipo devido à baixa amostragem ao longo dos níveis de escolaridade e fototipos avaliados.
+É possível observar diversas células vazias na tabela, onde esses níveis destas variáveis não estiveram representados na amostra de estudo.
+
+```{r dlqi}
 pander(
   tab.dlqi,
   split.table = Inf)
@@ -195,9 +205,11 @@ pander(
 Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas as categorias do DLQI coletadas neste estudo.
+
 Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
+
 Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=`r dlqi.asc.levene.p`), foi possível detectar um aumento significativo (pós-teste p=`r dlqi.asc.pw$p.value[3, 1]`, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
 possuíram efeito Grave na qualidade de vida
 (mediana [IQR] = `r tab.dlqi.asc[2, 4]`)
@@ -211,14 +223,22 @@ O escore bruto VitiQoL foi significativamente associado às duas únicas variáv
 o sexo (M/F) (K-W p=`r vitiqol.kw.sexo$p.value`)
 e o estado laboral (ativo/inativo) (K-W p=`r vitiqol.kw.laboral$p.value`),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
-Os homens apresentaram escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentaram escore mediano (IQR) 33.00 [19.25, 57.00].
-Quanto à atividade laboral, os laboralmente ativos declarando escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 Não foi possível detectar nesta amostra de estudo evidências de associação com
 fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
 tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`),
 escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
 estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
+
+Os homens apresentaram escore mediano (IQR)
+`r tab.vtq.sexo[2,1]`
+e as mulheres apresentaram escore mediano (IQR)
+`r tab.vtq.sexo[2,2]`.
+
+Quanto à atividade laboral, os laboralmente ativos declarando escore mediano (IQR)
+`r tab.vtq.trab[2,2]`
+enquanto os inativos apresentaram escore mediano
+`r tab.vtq.trab[2,1]`.
 
 A ASC foi positivamente correlacionada com os escores do instrumento VitiQoL
 (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`),
@@ -231,6 +251,7 @@ Testes estatísticos para variáveis qualitativas tipicamente requerem grandes v
 Devido ao pequeno tamanho amostral do estudo (N=131), o poder deste estudo provavelmente não foi suficiente para detectar uma possível associação entre os fatores avaliados, particularmente nos casos de variáveis categóricas com mais que dois níveis, como por exemplo o Fototipo, a Escolaridade, etc.
 Deve-se ser cauteloso, no entanto, ao afirmar que não há efeito.
 A não detecção não elimina automaticamente a existência de um efeito pequeno, relativo ao tamanho do estudo.
+Observe que na redação deste relatório foram utilizadas expressões como "não foi possível detectar associação" em contraste a expressões mais assertivas como "não há associação".
 
 Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse clínico como evidências da relevância de se planejar um estudo epidemiológico maior, com um desfecho primário definido especificamente para permitir um cálculo amostral para atingir poder estatístico adequado.
 
@@ -247,5 +268,11 @@ ASCs maiores induziram um aumento nos escores de impacto grave na qualidade de v
 
 # Referências
 
-# Apêndice
+# Apêndice - Dados utilizados
+
+Os dados utilizados neste relatório não podem ser publicados online por questões de sigilo.
+
+```{r dados}
+# pander(dados, split.table = Inf)
+```
 
