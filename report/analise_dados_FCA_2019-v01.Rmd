@@ -107,6 +107,14 @@ Uma nova variável categórica foi criada com base nos escores brutos de acordo 
 - 12-20: efeito grave;
 - 21-30: extremamente grave.
 
+**Tempo de Evolução da Doença**
+
+O tempo da evolução da doença, em anos, dos participantes foi discretizado de acordo com as faixas que parecem mais relevantes aos estudos de vitiligo:
+
+- menor que 10 anos;
+- de 10 a 20 anos;
+- igual ou a superior a 20 anos.
+
 # Metodologia
 
 O perfil típico dos participantes da pesquisa foi descrito de acordo com as categorias e valores mais prevalentes na amostra de estudo.
