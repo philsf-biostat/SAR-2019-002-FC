@@ -32,12 +32,13 @@ summary(lm(`Escore VitiQoL - Máx 90` ~ `Escore DLQI - Máx 30`, dados))
 dlqi.cor.vtq <- cor.test(dados$`Escore DLQI - Máx 30`, dados$`Escore VitiQoL - Máx 90`, method = "s")
 
 ggplot(dados, aes(`Escore DLQI - Máx 30`, `Escore VitiQoL - Máx 90`)) +
-  geom_point() +
   xlim(c(0, 30)) + xlab("DQLI") +
   ylim(c(0, 90)) + ylab("VitiQoL") +
-  geom_vline(xintercept = c(05, 10), lty = 3) +
-  geom_hline(yintercept = c(5*mult, 10*mult), lty = 2) +
-  geom_smooth(method = "lm")
+  geom_vline(xintercept = c(1, 5, 11, 20), lty = 2, lwd = .8, col = c("green", "blue", "yellow", "red")) +
+  # geom_hline(yintercept = c(5*mult, 10*mult), lty = 2) +
+  # geom_smooth(method = "lm") +
+  # geom_jitter(alpha = .4, width = .1, height = 0)
+  geom_point(alpha = .4)
 
 ggplot(dados, aes(DLQI, `Escore VitiQoL - Máx 90`)) +
   geom_boxplot() +
