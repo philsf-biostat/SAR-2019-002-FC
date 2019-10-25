@@ -220,7 +220,7 @@ escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
 estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
 
-A ASC teve correlação de Spearman significativa
+A ASC foi positivamente correlacionada com os escores do instrumento VitiQoL
 (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`),
 porém o mesmo não ocorreu com a
 idade (*rho*=`r vitiqol.cor.idade$estimate`, p=`r vitiqol.cor.idade$p.value`).
