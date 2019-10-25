@@ -217,7 +217,12 @@ A ASC teve correlação de Spearman significativa
 porém o mesmo não ocorreu com a
 idade (*rho*=`r vitiqol.cor.idade$estimate`, p=`r vitiqol.cor.idade$p.value`).
 
-<!-- # Exceções e Desvios do teste -->
+# Exceções da análise e Observações
+
+Testes estatísticos para variáveis qualitativas tipicamente requerem grandes volumes de dados para obter a precisão estatística adequada para detectar efeitos moderados ou sutis em estudos de associação ou intervenção.
+Devido ao pequeno tamanho amostral do estudo (N=131), o poder deste estudo provavelmente não foi suficiente para detectar uma possível associação entre os fatores avaliados, particularmente nos casos de variáveis categóricas com mais que dois níveis, como por exemplo o Fototipo, a Escolaridade, etc.
+Deve-se ser cauteloso, no entanto, ao afirmar que não há efeito.
+A não detecção não elimina automaticamente a existência de um efeito pequeno, relativo ao tamanho do estudo.
 
 # Conclusões
 
