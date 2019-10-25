@@ -128,6 +128,7 @@ Para avaliar a possível associação estatística entre as variáveis com poten
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
 Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
 Nos casos em que o teste de Kurskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
+A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
 
@@ -197,7 +198,11 @@ As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas
 Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
-ASC (p=`r dlqi.asc.pw$p.value[3, 1]`)
+Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=`r dlqi.asc.levene.p`), foi possível detectar uma diferença significativa entre os participantes que
+não sofreram efeito na qualidade de vida
+e os que possuíram
+efeito Grave
+(pós-teste p=`r dlqi.asc.pw$p.value[3, 1]`, corrigido p/ Bonferroni).
 
 ## VitiQoL
 

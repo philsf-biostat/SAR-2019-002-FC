@@ -2,6 +2,7 @@ source('scripts/input.R', encoding = 'UTF-8')
 
 library(ggplot2, quietly = TRUE)
 library(tableone)
+library(car)
 
 # print(CreateTableOne(strata = "Fototipo", vars = "Escore DLQI - Máx 30", data = dados[, .(
 #   Fototipo,
@@ -10,6 +11,9 @@ library(tableone)
 
 dlqi.ft.kw <- kruskal.test(dados$`Escore DLQI - Máx 30`, dados$Fototipo)
 # pairwise.wilcox.test(dados$`Escore DLQI - Máx 30`, dados$Fototipo, p.adjust.method = "bonf")
+
+dlqi.asc.levene <- car::leveneTest(ASC ~ DLQI, data = dados)
+dlqi.asc.levene.p <- dlqi.asc.levene$`Pr(>F)`[1]
 dlqi.asc.kw <- kruskal.test(dados$ASC, dados$DLQI)
 dlqi.asc.pw <- pairwise.wilcox.test(dados$ASC, dados$DLQI, p.adjust.method = "bonf")
 
