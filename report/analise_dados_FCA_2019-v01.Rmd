@@ -195,9 +195,11 @@ pander(
 Table: **Tabela 3** Associação entre as mensurações do instrumento DLQI e os cofatores estudados
 
 As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas as categorias do DLQI coletadas neste estudo.
+
 Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
+
 Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=`r dlqi.asc.levene.p`), foi possível detectar um aumento significativo (pós-teste p=`r dlqi.asc.pw$p.value[3, 1]`, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
 possuíram efeito Grave na qualidade de vida
 (mediana [IQR] = `r tab.dlqi.asc[2, 4]`)
@@ -211,14 +213,16 @@ O escore bruto VitiQoL foi significativamente associado às duas únicas variáv
 o sexo (M/F) (K-W p=`r vitiqol.kw.sexo$p.value`)
 e o estado laboral (ativo/inativo) (K-W p=`r vitiqol.kw.laboral$p.value`),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
-Os homens apresentaram escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentaram escore mediano (IQR) 33.00 [19.25, 57.00].
-Quanto à atividade laboral, os laboralmente ativos declararam escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 Não foi possível detectar nesta amostra de estudo evidências de associação com
 fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
 tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`),
 escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
 estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
 ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
+
+Os homens apresentaram escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentaram escore mediano (IQR) 33.00 [19.25, 57.00].
+
+Quanto à atividade laboral, os laboralmente ativos declararam escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 
 A ASC foi positivamente correlacionada com os escores do instrumento VitiQoL
 (*rho*=`r vitiqol.cor.asc$estimate`, p=`r vitiqol.cor.asc$p.value`),
