@@ -81,10 +81,10 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 # Introdução
 
 Na área de Dermatologia há diversos instrumentos que buscam avaliar o impacto que pacientes observam em sua Qualidade de Vida, um dos quais é o DLQI.
-Para o vitilogo existe ainda um instrumento específico, o VitiQoL.
-Na literatura especializada foram identificados vários faores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
+Para o vitiligo existe ainda um instrumento específico, o VitiQoL.
+Na literatura especializada foram identificados vários fatores clínicos e epidemiológicos associados aos resultados obtidos com o instrumento DLQI, como nível escolaridade, sexo e fototipo, entre outros.
 
-O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualida de devida), até Efeito Grave.
+O DLQI possui ainda um estudo que valida interpretações para uma categorização em cinco níveis para os escores obtidos do instrumento, desde Sem Efeito (na qualidade de vida), até efeito Extremamente Grave.
 O VitiQoL parece ainda não ter um estudo semelhante.
 
 ## Objetivos
@@ -127,7 +127,7 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
 Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
-Nos casos em que o teste de Kurskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
+Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
 A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
@@ -212,7 +212,7 @@ o sexo (M/F) (K-W p=`r vitiqol.kw.sexo$p.value`)
 e o estado laboral (ativo/inativo) (K-W p=`r vitiqol.kw.laboral$p.value`),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
 Os homens apresentaram escore mediano (IQR) 19.00 [8.00, 35.00] e as mulheres apresentaram escore mediano (IQR) 33.00 [19.25, 57.00].
-Quanto à atividade laboral, os laboralmente ativos declarando escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
+Quanto à atividade laboral, os laboralmente ativos declararam escore mediano (IQR) 22.00 [10.50, 54.50] enquanto os inativos apresentaram escore mediano 34.00 [20.75, 56.75].
 Não foi possível detectar nesta amostra de estudo evidências de associação com
 fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
 tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`),
