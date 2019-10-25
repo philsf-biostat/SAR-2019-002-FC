@@ -271,3 +271,8 @@ ASCs maiores induziram um aumento nos escores de impacto grave na qualidade de v
 # Apêndice - Dados utilizados
 
 Os dados utilizados neste relatório não podem ser publicados online por questões de sigilo.
+
+```{r dados}
+# pander(dados, split.table = Inf)
+```
+

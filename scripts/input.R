@@ -7,6 +7,7 @@ dados <- data.table(dados)
 # restrição da tabela -----------------------------------------------------
 
 dados <- dados[, .(
+  `Nº Pesquisa`,
   Idade,
   Sexo,
   `Estado civil`,
