@@ -142,6 +142,8 @@ Os escores destes dois instrumentos foram utilizados para avaliar as associaçõ
 O DLQI foi avaliado contra todos os cofatores clinicamente relevantes coletados na amostra de estudo, em sua interpretação discretizada em categorias de escores (tabela 3).
 Este estudo mostra evidências de associação entre o DLQI o sexo, a situação laboral e a ASC.
 Não foi possível detectar associação entre as categorias de escores e a idade, estado civil, fototipo, tratamento ou tempo de doença.
+Não foi possível avaliar a significância com a escolaridade devido à baixa amostragem ao longo dos sete níveis de escolaridade avaliados.
+É possível observar diversas células vazias na tabela, onde esses níveis de escolaridade não foram representados na amostra de estudo.
 
 ```{r}
 pander(
