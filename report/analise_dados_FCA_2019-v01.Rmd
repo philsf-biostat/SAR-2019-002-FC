@@ -108,9 +108,11 @@ Uma nova variável categórica foi criada com base nos escores brutos de acordo 
 - 12-20: efeito grave;
 - 21-30: extremamente grave.
 
+Tanto o escore bruto como a categorização do instrumento DLQI foram usados nesta análise.
+
 **Tempo de Evolução da Doença**
 
-O tempo da evolução da doença, em anos, dos participantes foi discretizado de acordo com as faixas que parecem mais relevantes aos estudos de vitiligo:
+O tempo da evolução da doença dos participantes, medido em anos, foi discretizado de acordo com as faixas que parecem mais relevantes aos estudos de vitiligo:
 
 - menor que 10 anos;
 - de 10 a 20 anos;
@@ -158,7 +160,7 @@ Por fim, 85% dos participantes apresentaram não segmentar, acumulando a maior p
 
 ## Instrumentos de qualidade de vida em dermatologia
 
-Os pacientes passaram por mensuração por dois instrumentos com objetivos complementares, o DLQI e o VitiQoL (tabela 2).
+Os participantes do estudo passaram por mensuração por dois instrumentos com objetivos complementares, o DLQI e o VitiQoL (tabela 2).
 O DLQI possui uma classificação em cinco níveis de severidade, e os escores observados variaram tipicamente de 1 a 8 (intervalo interquartil), com mediana 3.
 De acordo com este sistema, o nível de severidade típico mais prevalente na amostra deste estudo foi o Leve (45%).
 Na ausência de um sistema estabelecido de níveis de severidade para o VitiQoL, seus escores variaram tipicamente de 15 a 56 (intervalo interquartil), com valor mediano 27.
