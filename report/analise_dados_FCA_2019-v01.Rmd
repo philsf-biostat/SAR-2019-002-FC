@@ -73,10 +73,10 @@ pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
 
 # Lista de abreviaturas
 
-- ASC:
-- DLQI:
-- IQR: Intervalo interquartil
-- VitiQoL:
+- ASC: Área de superfície corporal
+- DLQI: *Dermatology Life Quality Index*
+- IQR: *Interquartile Range* (Intervalo interquartil)
+- VitiQoL: *Vitiligo Specific Health Related Quality of Life Instrument*
 
 # Introdução
 
