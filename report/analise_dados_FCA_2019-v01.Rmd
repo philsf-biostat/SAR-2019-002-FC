@@ -196,7 +196,7 @@ As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas
 Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
-ASC
+ASC (p=`r dlqi.asc.pw$p.value[3, 1]`)
 
 ## VitiQoL
 

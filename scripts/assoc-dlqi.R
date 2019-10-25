@@ -10,6 +10,8 @@ library(tableone)
 
 dlqi.ft.kw <- kruskal.test(dados$`Escore DLQI - Máx 30`, dados$Fototipo)
 # pairwise.wilcox.test(dados$`Escore DLQI - Máx 30`, dados$Fototipo, p.adjust.method = "bonf")
+dlqi.asc.kw <- kruskal.test(dados$ASC, dados$DLQI)
+dlqi.asc.pw <- pairwise.wilcox.test(dados$ASC, dados$DLQI, p.adjust.method = "bonf")
 
 ggplot(dados, aes(Fototipo, `Escore DLQI - Máx 30`)) +
   geom_boxplot() +
