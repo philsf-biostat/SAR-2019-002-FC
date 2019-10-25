@@ -1,7 +1,7 @@
 ---
 title: "Análise Estatística de ..."
 author: '**De:** Felipe Figueiredo **Para:** Felipe Cupertino'
-date: '**Data: ** 18/10/2019'
+date: '**Data: ** 25/10/2019'
 output:
   html_document:
     fig_caption: yes
@@ -100,6 +100,8 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
 Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
+Nos casos em que o teste de Kurskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
+A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
 
@@ -240,6 +242,12 @@ As mulheres parecem ter a qualidade de vida mais afetada que os homens, em todas
 Os participantes do estudo que estão laboralmente ativos parecem ser mais frequentes nas categorias Sem Efeito e Efeito Leve, indicando que parecem sofrer menos perda de qualidade vida que os inativos.
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
+Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=0.010398), foi possível detectar um aumento significativo (pós-teste p=0.0039439, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
+possuíram efeito Grave na qualidade de vida
+(mediana [IQR] = 0.17 [0.08, 0.28])
+em relação aos que
+não sofreram efeito
+(mediana [IQR] = 0.04 [0.01, 0.08]).
 
 ## VitiQoL
 
@@ -256,7 +264,7 @@ escolaridade (K-W p=0.1849204),
 estado civil (K-W p=0.6339946),
 ou o tempo de doença (K-W p=0.1663654).
 
-A ASC teve correlação de Spearman significativa
+A ASC foi positivamente correlacionada com os escores do instrumento VitiQoL
 (*rho*=0.2212906, p=0.0110825),
 porém o mesmo não ocorreu com a
 idade (*rho*=0.0514906, p=0.5591693).
@@ -270,8 +278,16 @@ A não detecção não elimina automaticamente a existência de um efeito pequen
 
 Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse clínico como evidências da relevância de se planejar um estudo epidemiológico maior, com um desfecho primário definido especificamente para permitir um cálculo amostral para atingir poder estatístico adequado.
 
+Deve-se observar ainda que o efeito da ASC na qualidade de vida pôde ser significativamente detectado com ambos os instrumentos
+Isto pode indicar que um futuro estudo com desfecho primário quantitativo talvez resulte em um tamanho amostral mais viável que um desfecho qualitativo.
+Por outro lado, as duas variáveis qualitativa que possuem apenas duas categorias (sexo e trabalho) puderam ser avaliadas adequadamente neste estudo, atingindo precisão adequada (i.e., sem levantar mensagens de aviso do programa de análise).
+
 # Conclusões
 
+Os dois instrumentos de qualidade de vida em dermatologia avaliados neste estudo são fortemente correlacionados, o que pode indicar a transposição da interpretação de resultados entre eles.
+As mulheres parecem ter a qualidade de vida mais afetada que os homens, tanto de acordo com o instrumento DLQI quanto o VitiQoL.
+Os participantes do estudo que são laboralmente ativos parecem ser menos afetados inativos.
+ASCs maiores induziram um aumento nos escores de impacto grave na qualidade de vida em relação aos escores imperceptíveis no DLQI, sendo também positivamente correlacionadas aos escores do VitiQoL
 
 # Referências
 
