@@ -126,6 +126,8 @@ Quase todos os participantes tiveram evolução da enfermidade superior a seis m
 Os fototipos mais prevalentes nesta amostra foram o 4 (43%) e o 3 (31%).
 Por fim, 85% dos participantes apresentaram não segmentar, acumulando a maior proporção neste sistema de classificação.
 
+## Instrumentos de qualidade de vida em dermatologia
+
 Os pacientes passaram por mensuração por dois instrumentos com objetivos complementares, o DLQI e o VitiQoL (tabela 2).
 O DLQI possui uma classificação em cinco níveis de severidade, e os escores observados variaram tipicamente de 1 a 8 (intervalo interquartil), com mediana 3.
 De acordo com este sistema, o nível de severidade típico mais prevalente na amostra deste estudo foi o Leve (45%).
@@ -145,6 +147,9 @@ Na ausência de um sistema estabelecido de níveis de severidade para o VitiQoL,
 
 Table: **Tabela 2** - Instrumentos utilizados no estudo.
 
+Considerando os escores totais coletados em ambos os instrumentos, há
+forte correlação positiva entre o DLQI e o VitiQoL
+(*rho*=0.8225165, p=<0.001).
 Os escores destes dois instrumentos foram utilizados para avaliar as associações entre o grau observado de Vitiligo e os cofatores de interesse, como veremos nas seções a seguir.
 
 ## DLQI
