@@ -92,6 +92,21 @@ Avaliar a associação entre dois instrumentos de qualidade de vida específicos
 
 ## Recepção e tratamento dos dados
 
+Foi recebida uma tabela contendo dados coletados de 131 participantes do estudo realizado no ambulatório de dermatologia do Hospital Universitário Clementino Fraga Filho da Universidade Federal do Rio de Janeiro (HUCFF/UFRJ).
+
+Nenhuma transformação foi feita nos dados recebidos antes das análises, mas alguns dados foram reordenados ou categorizados conforme a seguir:
+
+**DLQI**
+
+Os escores brutos do DLQI podem variar de 0 a 30.
+Uma nova variável categórica foi criada com base nos escores brutos de acordo com a categorização validada para este instrumento:
+
+- 0-1: sem efeito;
+- 1-5: efeito leve;
+- 6-11: efeito moderado;
+- 12-20: efeito grave;
+- 21-30: extremamente grave.
+
 # Metodologia
 
 O perfil típico dos participantes da pesquisa foi descrito de acordo com as categorias e valores mais prevalentes na amostra de estudo.
