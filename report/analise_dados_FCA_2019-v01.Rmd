@@ -251,6 +251,7 @@ Testes estatísticos para variáveis qualitativas tipicamente requerem grandes v
 Devido ao pequeno tamanho amostral do estudo (N=131), o poder deste estudo provavelmente não foi suficiente para detectar uma possível associação entre os fatores avaliados, particularmente nos casos de variáveis categóricas com mais que dois níveis, como por exemplo o Fototipo, a Escolaridade, etc.
 Deve-se ser cauteloso, no entanto, ao afirmar que não há efeito.
 A não detecção não elimina automaticamente a existência de um efeito pequeno, relativo ao tamanho do estudo.
+Observe que na redação deste relatório foram utilizadas expressões como "não foi possível detectar associação" em contraste a expressões mais assertivas como "não há associação".
 
 Recomenda-se declarar que este estudo é um piloto, e que há tanto interesse clínico como evidências da relevância de se planejar um estudo epidemiológico maior, com um desfecho primário definido especificamente para permitir um cálculo amostral para atingir poder estatístico adequado.
 
