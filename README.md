@@ -16,7 +16,7 @@ Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualid
 
 [Ver as etapas desta análise][releases].
 
-**Versão 01 - Relatório final** - [Em elaboração][milestone-prequal].
+**Versão 01 - Relatório final** - [Concluído][milestone-prequal].
 
 [Planejamento][v01-project].
 
