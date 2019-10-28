@@ -99,9 +99,9 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
-Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
-Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
-A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
+Variáveis quantitativas foram avaliadas com os testes não-paramétricos de Wilcoxon ou de Kruskal-Wallis, respectivamente quando havia dois ou mais grupos.
+Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes de Wilcoxon com correção de Bonferroni.
+A homogeneidade da variância entre os grupos foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
 
@@ -254,7 +254,7 @@ Os participantes do estudo que estão laboralmente ativos parecem ser mais frequ
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
 
-Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=0.010398), foi possível detectar um aumento significativo (pós-teste p=0.0039439, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
+Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=0.010398), foi possível detectar um aumento significativo (pós-teste Wilcoxon p=0.0039439, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
 possuíram efeito Grave na qualidade de vida
 (mediana [IQR] = 0.17 [0.08, 0.28])
 em relação aos que
@@ -264,15 +264,15 @@ não sofreram efeito
 ## VitiQoL
 
 O escore bruto VitiQoL foi significativamente associado às duas únicas variáveis binárias,
-o sexo (M/F) (K-W p=0.0031921)
-e o estado laboral (ativo/inativo) (K-W p=0.0297177),
+o sexo (M/F) (Wilcoxon p=0.0031921)
+e o estado laboral (ativo/inativo) (Wilcoxon p=0.0297177),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
 Não foi possível detectar nesta amostra de estudo evidências de associação com
-fototipo (K-W p=0.636378),
-tratamento (K-W p=0.6858056),
-escolaridade (K-W p=0.1849204),
-estado civil (K-W p=0.6339946),
-ou o tempo de doença (K-W p=0.1663654).
+fototipo (Kruskal-Wallis p=0.636378),
+tratamento (Kruskal-Wallis p=0.6858056),
+escolaridade (Kruskal-Wallis p=0.1849204),
+estado civil (Kruskal-Wallis p=0.6339946),
+ou o tempo de doença (Kruskal-Wallis p=0.1663654).
 
 Os homens apresentaram escore mediano (IQR)
 19.00 [8.00, 35.00]
