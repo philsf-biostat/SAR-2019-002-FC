@@ -126,7 +126,7 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
-Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
+Variáveis quantitativas foram avaliadas com os testes não-paramétricos de Wilcoxon ou de Kruskal-Wallis, respectivamente quando havia dois ou mais grupos.
 Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes de Wilcoxon com correção de Bonferroni.
 A homogeneidade da variância entre os grupos foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
@@ -220,8 +220,8 @@ não sofreram efeito
 ## VitiQoL
 
 O escore bruto VitiQoL foi significativamente associado às duas únicas variáveis binárias,
-o sexo (M/F) (Kruskal-Wallis p=`r vitiqol.kw.sexo$p.value`)
-e o estado laboral (ativo/inativo) (Kruskal-Wallis p=`r vitiqol.kw.laboral$p.value`),
+o sexo (M/F) (Wilcoxon p=`r vitiqol.kw.sexo$p.value`)
+e o estado laboral (ativo/inativo) (Wilcoxon p=`r vitiqol.kw.laboral$p.value`),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
 Não foi possível detectar nesta amostra de estudo evidências de associação com
 fototipo (Kruskal-Wallis p=`r vitiqol.kw.fototipo$p.value`),
