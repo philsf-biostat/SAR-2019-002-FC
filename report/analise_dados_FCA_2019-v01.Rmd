@@ -210,7 +210,7 @@ Os participantes do estudo que estão laboralmente ativos parecem ser mais frequ
 Devemos ser cautelosos ao interpretar as proporções observadas nos participantes que declararam maior impacto em sua qualidade de vida - embora estes sejam clinicamente relevantes, houve baixa amostragem destes casos para uma avaliação precisa.
 Isto é particularmente evidente considerando que apenas 3 participantes declararam escores na categoria Extremamente Grave.
 
-Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=`r dlqi.asc.levene.p`), foi possível detectar um aumento significativo (pós-teste p=`r dlqi.asc.pw$p.value[3, 1]`, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
+Embora a ASC não estivesse homogeneamente distribuída entre as categorias do instrumento (Levene p=`r dlqi.asc.levene.p`), foi possível detectar um aumento significativo (pós-teste Wilcoxon p=`r dlqi.asc.pw$p.value[3, 1]`, corrigido p/ Bonferroni) entre os escores declarados pelos participantes que
 possuíram efeito Grave na qualidade de vida
 (mediana [IQR] = `r tab.dlqi.asc[2, 4]`)
 em relação aos que
@@ -220,15 +220,15 @@ não sofreram efeito
 ## VitiQoL
 
 O escore bruto VitiQoL foi significativamente associado às duas únicas variáveis binárias,
-o sexo (M/F) (K-W p=`r vitiqol.kw.sexo$p.value`)
-e o estado laboral (ativo/inativo) (K-W p=`r vitiqol.kw.laboral$p.value`),
+o sexo (M/F) (Kruskal-Wallis p=`r vitiqol.kw.sexo$p.value`)
+e o estado laboral (ativo/inativo) (Kruskal-Wallis p=`r vitiqol.kw.laboral$p.value`),
 provavelmente devido ao tamanho do estudo prover poder estatístico insuficiente para detectar associações em variáveis com mais categorias.
 Não foi possível detectar nesta amostra de estudo evidências de associação com
-fototipo (K-W p=`r vitiqol.kw.fototipo$p.value`),
-tratamento (K-W p=`r vitiqol.kw.tratamento$p.value`),
-escolaridade (K-W p=`r vitiqol.kw.escolaridade$p.value`),
-estado civil (K-W p=`r vitiqol.kw.marital$p.value`),
-ou o tempo de doença (K-W p=`r vitiqol.kw.tempodoenca$p.value`).
+fototipo (Kruskal-Wallis p=`r vitiqol.kw.fototipo$p.value`),
+tratamento (Kruskal-Wallis p=`r vitiqol.kw.tratamento$p.value`),
+escolaridade (Kruskal-Wallis p=`r vitiqol.kw.escolaridade$p.value`),
+estado civil (Kruskal-Wallis p=`r vitiqol.kw.marital$p.value`),
+ou o tempo de doença (Kruskal-Wallis p=`r vitiqol.kw.tempodoenca$p.value`).
 
 Os homens apresentaram escore mediano (IQR)
 `r tab.vtq.sexo[2,1]`
