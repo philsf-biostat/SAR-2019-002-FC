@@ -16,13 +16,12 @@ Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualid
 
 [Ver as etapas desta análise][releases].
 
-**Versão 01 - Relatório final** - [Em elaboração][milestone-prequal].
+**Versão 01 - Relatório final** - [Concluído][milestone-prequal].
 
 [Planejamento][v01-project].
 
 - [Visualização online][reportviz-v01]
-- Download
-<!-- - [Download][docx-v01] -->
+- [Download][pdf-v01]
 
 <!-- **Versão 02 - Defesa** - [Em elaboração][milestone-posqual]. -->
 
@@ -35,6 +34,7 @@ Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualid
 [milestone-prequal]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/1
 [reportviz-v01]: report/analise_dados_FCA_2019-v01.md
 [docx-v01]: report/analise_dados_FCA_2019-v01.docx?raw=true
+[pdf-v01]: report/analise_dados_FCA_2019-v01.pdf?raw=true
 [v01-project]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/1
 
 <!-- [milestone-posqual]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/analise_dados_FCA_2019 -->
