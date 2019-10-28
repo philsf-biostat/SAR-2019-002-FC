@@ -127,8 +127,8 @@ Tanto as variáveis quantitativas como os escores brutos dos instrumentos do tip
 Para avaliar a possível associação estatística entre as variáveis com potencial relevância clínica e os escores dos instrumentos foram usados vários testes, dependendo do tipo de cada variável, isto é, se o desfecho de interesse era o escore bruto, ou as categorias dos escores do instrumento DLQI.
 Variáveis qualitativas, quando comparadas com os níveis do instrumento DLQI foram avaliadas com o teste Exato de Fisher.
 Para estes grupos, ainda, os cofatores quantitativos foram avaliados com o teste não-paramétrico de Kruskal-Wallis (é de se observar que no caso de haver apenas dois grupos, este teste é matematicamente equivalente ao teste de Wilcoxon).
-Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes com correção de Bonferroni.
-A homogeneidade da distribuição dos dados foi avaliada com o teste de Levene.
+Nos casos em que o teste de Kruskal-Wallis foi significativo foram aplicados pós-testes de Wilcoxon com correção de Bonferroni.
+A homogeneidade da variância entre os grupos foi avaliada com o teste de Levene.
 Por fim, quando variáveis quantitativas foram comparadas diretamente com os escores brutos dos instrumentos, foi avaliada a correlação *rho* de Spearman.
 Foram considerados significativos valores de $p<0.05$.
 
