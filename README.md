@@ -1,6 +1,6 @@
-# Análise de Dados projeto Felipe Cupertino de Andrade (Mestrado em Clínica Médica/UFRJ, 2019)
+# Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualidade de Vida DLQI e VitiQoL
 
-Análise epidemiológica de pacientes com vitiligo com os instrumentos de Qualidade de Vida DLQI e VitiQoL
+Análise de Dados projeto Felipe Cupertino de Andrade (Mestrado em Clínica Médica/UFRJ, 2019)
 
 ## Análises realizadas
 
