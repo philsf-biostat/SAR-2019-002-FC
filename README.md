@@ -8,9 +8,9 @@ Análise de Dados projeto Felipe Cupertino de Andrade (Mestrado em Clínica Méd
 2. Associações ([Planejamento][proj-assoc])
 <!-- 3. zzz ([Planejamento][proj-zzz]) -->
 
-[proj-desc]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/2
-[proj-assoc]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/3
-<!-- [proj-zzz]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/zzz -->
+[proj-desc]: https://github.com/philsf-biostat/SAR-2019-002-FC/projects/2
+[proj-assoc]: https://github.com/philsf-biostat/SAR-2019-002-FC/projects/3
+<!-- [proj-zzz]: https://github.com/philsf-biostat/SAR-2019-002-FC/projects/zzz -->
 
 ## Relatório da análise de dados
 
@@ -30,14 +30,14 @@ Análise de Dados projeto Felipe Cupertino de Andrade (Mestrado em Clínica Méd
 <!-- - [Visualização online][reportviz-v02] -->
 <!-- - Download -->
 
-[releases]: https://github.com/philsf-biostat/analise_dados_FCA_2019/releases/
-[milestone-prequal]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/1
-[reportviz-v01]: report/analise_dados_FCA_2019-v01.md
-[docx-v01]: report/analise_dados_FCA_2019-v01.docx?raw=true
-[pdf-v01]: report/analise_dados_FCA_2019-v01.pdf?raw=true
-[v01-project]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/1
+[releases]: https://github.com/philsf-biostat/SAR-2019-002-FC/releases/
+[milestone-prequal]: https://github.com/philsf-biostat/SAR-2019-002-FC/milestone/1
+[reportviz-v01]: report/SAR-2019-002-FC-v01.md
+[docx-v01]: report/SAR-2019-002-FC-v01.docx?raw=true
+[pdf-v01]: report/SAR-2019-002-FC-v01.pdf?raw=true
+[v01-project]: https://github.com/philsf-biostat/SAR-2019-002-FC/projects/1
 
-<!-- [milestone-posqual]: https://github.com/philsf-biostat/analise_dados_FCA_2019/milestone/analise_dados_FCA_2019 -->
-<!-- [reportviz-v02]: report/analise_dados_FCA_2019-v02.md -->
-<!-- [docx-v02]: report/analise_dados_FCA_2019-v02.docx?raw=true -->
-<!-- [v02-project]: https://github.com/philsf-biostat/analise_dados_FCA_2019/projects/xxx -->
+<!-- [milestone-posqual]: https://github.com/philsf-biostat/SAR-2019-002-FC/milestone/SAR-2019-002-FC -->
+<!-- [reportviz-v02]: report/SAR-2019-002-FC-v02.md -->
+<!-- [docx-v02]: report/SAR-2019-002-FC-v02.docx?raw=true -->
+<!-- [v02-project]: https://github.com/philsf-biostat/SAR-2019-002-FC/projects/xxx -->
